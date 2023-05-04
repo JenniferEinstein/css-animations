@@ -1,0 +1,25 @@
+CSS animation
+Jennifer Einstein, Raymond Johnson, Kinu Wright, Noni Porter
+
+GENERAL INFORMATION
+You can access CSS Animation tools online. There are many alternatives online which you can find by searching. 
+
+The coding for animations is elaborate 
+
+In this example, <div></div> is the element we’re animating. Looking at the CSS, we see that our animation declarations are associated with the div selector. The most important declaration here is animation-name, which binds the keyframe my-animation to our div element. Below that are several additional declarations that affect the timing and behavior of the animation.
+
+@keyframes
+
+The animation itself is created with a keyframe, indicated by the @keyframes rule. A keyframe defines the animation’s starting state (inside from{}) and its end state (inside to{}). The keyframe my-animation changes three style properties of our div: background-color, width, and top. When these three properties are animated at once, it produces a coherent animation.
+
+The CSS Keyframes Animation Generator, as the name suggests, is an online tool that lets you create CSS keyframe animations.
+
+CSS animations do not affect an element before the first keyframe is played or after the last keyframe is played. The animation-fill-mode property can override this behavior. The animation-fill-mode property specifies a style for the target element when the animation is not playing (before it starts, after it ends, or both).
+
+Although you can do CSS animations manually, there are many code snippets or libraries out there. In some cases, you may need to install additional libraries. VSCode has some as well. 
+
+CODING
+** this example came from https://blog.hubspot.com/website/css-animation-examples
+
+
+
